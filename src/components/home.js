@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo2.jpg';
+import FacilitiesSlider from './facilities';
 
 
 export default function Home() {
@@ -16,9 +17,9 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                
             </section>
-
-
+            <FacilitiesSlider/>
             <section class="hero is-success">
                 <div class="hero-body">
                     <div class="container">
@@ -45,7 +46,7 @@ export default function Home() {
                 </div>
             </section>
 
-
+    
             <section class="hero is-info">
                 <div class="hero-body">
                     <div class="container">
