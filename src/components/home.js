@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo2.jpg';
-import FacilitiesSlider from './facilities';
-
+import {Link} from "react-router-dom";
+import FacilitiesSlider from './homeSlides';
 
 export default function Home() {
     return (
@@ -19,7 +19,11 @@ export default function Home() {
                 </div>
                 
             </section>
+            <br/>
+            <br/>
             <FacilitiesSlider/>
+            <br/>
+            <br/>
             <section class="hero is-success">
                 <div class="hero-body">
                     <div class="container">
@@ -81,7 +85,10 @@ const Content1 = <article class="media">
             <h2 class="subtitle">
                 We always care
             </h2>
+            
+            <Link to='/contactUs'>
             <button class="button is-success">More About us</button>
+                </Link>
         </div>
 
         <p>
@@ -111,7 +118,10 @@ const Content2 = <div className='columns'>
                 <p class="subtitle is-5 has-text-black">Welcoming home</p>
                 <p class="subtitle is-5 has-text-black">Sporting</p>
                 <p class="subtitle is-5 has-text-black">Entertainment</p>
+                <Link to='/facilities'>
                 <button class="button is-info">Check out our facilities</button>
+                </Link>
+                
             </div>
         </article>
     </div>
@@ -126,7 +136,10 @@ const Content2 = <div className='columns'>
                 <p class="subtitle is-5 has-text-black">Qualified staff</p>
                 <p class="subtitle is-5 has-text-black">Ethical professionals</p>
                 <p class="subtitle is-5 has-text-black">Adequate Attention</p>
+                
+                <Link to='/staff'>
                 <button class="button is-success">Check out our staff</button>
+                </Link>
             </div>
         </article>
     </div>
