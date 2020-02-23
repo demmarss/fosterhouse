@@ -155,7 +155,7 @@ const mission = <article class="message is-primary ">
         <p className='subtitle is-5 has-text-black'>Caring for Adult serves everyone to achieve rest, well-being, peace, fulfilment and relation without segregation.</p>
         <p className='subtitle is-5 has-text-black'>Located within serene Enviroment to ensure much needed care and tranquility.</p>
         <p className='subtitle is-5 has-text-black'>Establishing an Intelligent Based Care through providing best services and resources.</p>
-        <p className='subtitle is-5 has-text-black'>Caring for Adult provide out-standing 24-hour care in a home setting according to each Individual Service Plan for Adult who are unable to live independently due to disability</p>
+        <p className='subtitle is-5 has-text-black'>Caring for Adult provide out-standing 24-hours care in a home setting according to each Individual Service Plan for Adult who are unable to live independently due to disability</p>
     </div>
 </article>
 

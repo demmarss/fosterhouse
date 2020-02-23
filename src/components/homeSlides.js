@@ -16,7 +16,7 @@ export default function FacilitiesSlider() {
     const settings = {
         dots: true,
         infinite: true,
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -33,7 +33,7 @@ export default function FacilitiesSlider() {
 function CardHere(Cardinfor){
 return <div>
     <p class="title is-4 has-text-centered">{Cardinfor.title}</p>
-    <p class="subtitle is-6 has-text-centered">{Cardinfor.description}</p>
+    {/* <p class="subtitle is-6 has-text-centered">{Cardinfor.description}</p> */}
 <figure class="image is-2by2">
     <img src={Cardinfor.imageSrc} alt="Placeholder image"/>
 </figure>
@@ -60,7 +60,7 @@ const CardInformation = [
     }, {
         imageSrc: image5,
         title: "Dinning",
-        description: "Eat with confort "
+        description: "Eat with comfort "
     }, {
         imageSrc: image6,
         title: "Kitchen",

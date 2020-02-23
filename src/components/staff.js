@@ -25,6 +25,9 @@ export default function Staff(){
             <li>He sees his inherent ability to care for others as an act of humanity.</li>
             <li>Kenny cares for every individual with him with atmost respect and dedication.</li>
             <li>He has shown ability to collaborate with others towards excellence.</li>
+            <li>Staff is trained in controlled substances, Mental Health First Aid, Diabetes 
+              and High Blood Pressure, Borderline Personality Disorder, Bipolar and Related Disorders, 
+              Medication Administration, CPR, Client/Patient Rights, Brain Injury, and Hospice Aides.</li>
         </ul>
     </div>
   </div>
